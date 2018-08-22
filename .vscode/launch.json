@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "antlr-numbers",
+            "type": "antlr-debug",
+            "request": "launch",
+            // "input": "${workspaceFolder}/${command:AskForTestInput}",
+            "input": "12",
+            // "grammar": "numbers.g4",
+            // "startRule": "digit",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}
